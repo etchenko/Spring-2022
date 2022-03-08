@@ -36,7 +36,7 @@ list_concat([H|T],[H1|T1],[H2|T2]) :- H2 = H, list_concat(T, [H1|T1], T2).
 
 % List of Leaf Values
 tree_leaves(leaf(V), [Head]):-
-    Head is V.
+    Head = V.
 tree_leaves(node(Left, Right), L):-
     tree_leaves(Left, L1),
     tree_leaves(Right, L2),
