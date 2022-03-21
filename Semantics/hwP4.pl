@@ -22,6 +22,13 @@ list_sub(L, P, B, Len, A):-
 
 % First plateau
 first_plateau([H1,H2|T], A, Len, Suff):-
-    H1 = H2,
-    ;
-    H1 /= H2, first_plateau([H2|T], A, Len, Suff).
+    H1 = H2 -> 
+       (A = H1, (first_plateau([H2|T], A, Len2, Suff) -> 
+                    Len is Len2 + 1; 
+                    Len = 2, Suff = T)
+        );
+        first_plateau([H2|T], A, Len, Suff).
+
+% Enumerate Plateaus
+plateau([H1,H2|T], A, Len) :-
+    first_plateau([H1,H2|T], A, Len, _Suff); first_plateau([H1,H2|T], _B, _C, Suff), plateau(Suff, A, Len).
