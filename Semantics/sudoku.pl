@@ -1,0 +1,2 @@
+% Consistent
+consistent(L) :-
