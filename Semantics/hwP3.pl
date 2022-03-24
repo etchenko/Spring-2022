@@ -41,3 +41,12 @@ visible_count([_A],1).
 visible_count([X,Y|T], C):-
     Y > X, visible_count([Y|T], C0), C is C0 + 1;
     Y =< X, visible_count([X|T], C).
+
+% Left visible but more efficient
+visible_count2(L,VC):-
+    viscnt(L, 0, 0, VC).
+
+viscnt([], _, VC0, VC) :- VC = VC0.
+viscnt([H|T], M0, C0, VC):-
+    H > M0 -> M1 = H, C1 = C0 + 1, viscnt(T, M1, C1, VC)
+        ; viscnt(T, M0, C0, VC).

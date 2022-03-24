@@ -1,0 +1,282 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	background: #fefefe;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: justify;
+	color: #555E4F;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+form {
+color:#000000;
+}
+
+/* Header */
+
+#header {
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+	border: 10px solid #9CAC93;
+	border-bottom: none;
+	background: #788770;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header h1 {
+	float: left;
+	margin: 20px 0 0 20px;
+	font-size: 50px;
+	letter-spacing: -4px;
+	color:#FFFF99;
+}
+
+#header h2 {
+	float:right;
+	margin-top:25px;
+	margin-right: 20px;
+	font-size: 18px;
+	letter-spacing: 0px;
+	color:#FFFFFF;
+}
+
+a {
+	color: #323B2E;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#666666;
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu1 {
+	float: left;
+	width: 200px;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: #323B2E;
+}
+
+#menu1 ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu1 li {
+}
+
+#menu1 a {
+	display: block;
+	width: 200px;
+	padding: 15px 0px;
+	background-color: #788770;
+	border-top: 1px solid #323B2E;
+	border-bottom: 1px solid #788770;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu1 a:hover {
+	background-color: #AFB3A5;
+	border-top: 1px solid #555E4F;
+	border-bottom: 1px solid #555E4F;
+}
+
+/* Content */
+
+#content {
+	width: 1024px;
+	margin: 0 auto;
+	border: 10px solid #9CAC93;
+	border-top: none;
+	background: #E9EAE2;
+}
+
+#colOne {
+	float: left;
+	width: 210px;
+	margin-top: 20px;
+	padding: 0 10px 0 20px;
+}
+
+#colTwo {
+	float: right;
+	margin-top: 20px;
+	width: 700px;
+	padding: 0 20px 0 20px;
+}
+
+#res_page_2 {
+	float: right;
+	width: 700px;
+	padding: 0 20px 0 20px;
+}
+
+#cgi_response {
+    float: right;
+	width: 700px;
+	padding: 0 20px 0 20px;
+}
+
+#submission_summary {
+	float: right;
+	width: 700px;
+	padding: 0 20px 0 20px;
+	word-break:break-all;
+	overflow:auto;
+}
+
+#exome_table {
+	float: right;
+	width: 700px;
+	padding: 0 20px 0 20px;
+}
+
+#con_table {
+        float: right;
+        width: 700px;
+        padding: 0 20px 0 20px;
+}
+
+#com_table {
+        float: right;
+        width: 700px;
+        padding: 0 20px 0 20px;
+}
+
+#colTwo img{
+BORDER-RIGHT: #ff0000 5px dashed; 
+BORDER-TOP: #ff0000 5px dashed; 
+BORDER-LEFT: #ff0000 5px dashed; 
+BORDER-BOTTOM: #ff0000 5px dashed;
+}
+
+#form img{
+BORDER-RIGHT: #ff0000 0px dashed; 
+BORDER-TOP: #ff0000 0px dashed; 
+BORDER-LEFT: #ff0000 0px dashed; 
+BORDER-BOTTOM: #ff0000 0px dashed;
+}
+
+#content h2 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: -2px;
+}
+
+
+#footer {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+#footer p {
+	text-align: center;
+	padding: 0;
+	font-size: 10px;
+}
+
+/* table */
+td {
+color:#000000;
+}
+table.sortable {
+/* 	margin: 10px 20px 20px; */
+	color: #000000;
+	border-left: 1px solid #cbcbb4;
+	border-top: 1px solid #cbcbb4;
+	border-spacing: 0px;
+}
+
+table.sortable td,table.sortable th {
+
+	border-right: 1px solid #cbcbb4;
+	border-bottom: 1px solid #cbcbb4;
+	padding: 2px 10px;
+	background-color: #D6EEFA;
+}
+
+table.sortable th {
+	background-color: #555E4F;
+	color: #D6EEFA;
+}
+
+table.sortable td {overflow:hidden; white-space:nowrap}
+
+table.com td {overflow:hidden; white-space:nowrap}
+
+table.sortable1 {
+/* 	margin: 10px 20px 20px; */
+	color: #000000;
+	border-left: 1px solid #cbcbb4;
+	border-top: 1px solid #cbcbb4;
+	border-spacing: 0px;
+}
+
+table.sortable1 td,table.sortable1 th {
+
+	border-right: 1px solid #cbcbb4;
+	border-bottom: 1px solid #cbcbb4;
+	padding: 2px 10px;
+	background-color: #D6EEFA;
+}
+
+table.sortable1 th {
+	background-color: #555E4F;
+	color: #D6EEFA;
+}
+
+table.sortable a {
+	color:#666666;
+	text-decoration: none;
+}
+
+table.sortable1 a {
+	color:#666666;
+	text-decoration: none;
+}
+
+table.sortable a:hover {
+	color:#FF0000;
+	text-decoration: none;
+}
+
+table.sortable1 a:hover {
+	color:#FF0000;
+	text-decoration: none;
+}
+
+table.advanced {
+	border-width: 1px;
+	border-collapse: collapse;
+	background-color: #D4D6CD;
+}
+table.advanced td {
+	border-width: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #D4D6CD;
+}
